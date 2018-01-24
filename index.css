@@ -1,0 +1,58 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+#wrapper {
+	width: 80%;
+	max-height: auto;
+	margin: 0 auto;
+}
+
+.jukebox {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 700px;
+	height: 400px;
+	background: grey;
+	margin:0 auto;
+	max-width: 100%;
+
+}
+.button {
+	display: inline-block;
+	padding-left: 5%;
+
+}
+#button_box {
+	position: fixed;
+	top:10%;
+	left: 10%;
+	width:30%;
+	padding:10px;
+	background-color: black;
+}
+#song-playing {
+	position: fixed;
+	bottom:40%;
+	left: 10%;
+	width: 30%;
+	height: 30px;
+	background-color: white;
+
+}
+
+#speaker {
+	position: fixed;
+	bottom:0;
+	right:0;
+	margin: 50px 20px;
+	width:300px;
+	height: 300px;
+	border-radius: 50%;
+	background: url('img/speaker.png');
+	background-size: cover;
+}
+
