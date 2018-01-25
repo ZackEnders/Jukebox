@@ -34,7 +34,7 @@
 	padding:10px;
 	background-color: black;
 }
-#song-playing {
+#song_playing {
 	position: fixed;
 	bottom:40%;
 	left: 10%;
